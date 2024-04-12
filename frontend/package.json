@@ -8,7 +8,7 @@
     "build": "del dist && vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "pub": "pm2 serve dist 3001 --spa --name my-tshirt"
+    "pub": "pm2 serve dist 3003 --spa --name my-tshirt"
   },
   "dependencies": {
     "@react-three/drei": "^9.78.1",
